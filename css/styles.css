@@ -1,0 +1,223 @@
+body {
+  font-family: 'Karla', sans-serif;
+  margin: 0;
+  letter-spacing: 0.5px;
+}
+
+h1 {
+  font-size: 4.6rem;
+  font-weight: bold;
+  font-family: 'DM Serif Display', serif;
+}
+
+h3 {
+  font-family: 'DM Serif Display', serif;
+}
+p {
+  line-height: 2rem;
+  font-weight: bold;
+}
+
+.long-line {
+  width: 80%;
+  margin-top: 25px;
+  opacity: .3;
+}
+
+.short-line {
+  width: 175px;
+  margin-left: 0;
+  text-align: left;
+}
+
+.top-container,
+.mid-container,
+.group-items-container,
+.parent-div,
+.social-media,
+.footer-container {
+  padding: 0 10%;
+}
+
+.top-container {
+  vertical-align: top;
+  margin: 20px 0;
+}
+
+.menu-item1 {
+  color: hsl(273, 4%, 51%);
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.logo {
+  padding: 1rem 0;
+}
+
+.menu-item2 {
+  color: hsl(273, 4%, 51%);
+  display: inline-block;
+  text-transform: uppercase;
+  float: right;
+  vertical-align: top;
+}
+
+.menu-link {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.mybutton {
+  background-color: transparent;
+  border: 1px solid hsl(256, 26%, 20%);
+  cursor: pointer;
+  color: hsl(256, 26%, 20%);
+  font-size: 18px;
+  padding: .5rem 2rem;
+  text-transform: uppercase;
+}
+
+.mybutton:hover {
+  background-color: hsl(256, 26%, 20%);
+  color: white;
+}
+
+.mybutton:active,
+.mybutton2:active,
+.mybutton3:active {
+  position: relative;
+  top: 1px;
+}
+
+.mybutton2 {
+  background-color: transparent;
+  border: 1px solid white;
+  cursor: pointer;
+  color: white;
+  font-size: 18px;
+  padding: .5rem 2rem;
+  text-transform: uppercase;
+  position: relative;
+  top: 6rem;
+  float: right;
+}
+
+.mybutton2:hover, .mybutton3:hover {
+  background-color: white;
+  color: hsl(256, 26%, 20%);
+}
+
+.mybutton3 {
+  background-color: transparent;
+  border: 1px solid white;
+  cursor: pointer;
+  color: white;
+  font-size: 18px;
+  padding: .5rem 2rem;
+  text-transform: uppercase;
+  margin-top: 25px;
+}
+
+.mid-container {
+  color: white;
+  background-color: hsl(256, 26%, 20%);
+  margin-bottom: 300px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.mid-container-part1 {
+  width: 49%;
+  display: inline-block;
+}
+
+.mid-container-text{
+  color: hsl(0, 0%, 98%);
+}
+
+.family {
+  float: right;
+}
+
+.parent-div {
+  display: inline-block;
+  text-align: left;
+}
+
+.group-items-container {
+  padding-bottom: 50px;
+}
+
+.group-items-container-part {
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+}
+
+.group-text {
+  color: hsl(273, 4%, 51%);
+}
+
+.bottom-container-part1,
+.social-media-insure {
+  display: inline-block;
+}
+
+.bottom-container {
+  background-color: hsl(256, 26%, 20%);
+  color: white;
+  text-align: left;
+  margin: 10% 10%;
+  border-left: solid 4rem transparent;
+  border-right: solid 4rem transparent;
+  height: 250px;
+}
+
+.bottom-container-lines {
+  position: absolute;
+  display: inline-block;
+  right: 10.5%;
+}
+
+.last-section {
+  background-color: hsl(0, 0%, 98%);
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.social-media-logo {
+  display: inline-block;
+  padding-left: 15px;
+}
+
+.media-logos {
+  float: right;
+}
+
+.footer-container {
+  font-family: 'Karla', sans-serif;
+}
+
+.footer-section {
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  width: 24.5%;
+  color: hsl(270, 9%, 17%);
+  text-transform: uppercase;
+}
+
+.footer-title {
+  color: hsl(273, 4%, 51%);
+  padding-top: 35px;
+  padding-bottom: 25px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
